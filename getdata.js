@@ -4,7 +4,7 @@ function getData() {
   var index = document.getElementById('index').value;
   var name = document.getElementById('name').value.toUpperCase();
   var nic = document.getElementById('nic').value;
-  var year = document.getElementById('year').value;
+  //var year = document.getElementById('year').value;
   //step02
   var Drank = document.getElementById('Drank').value;
   var Irank = document.getElementById('Irank').value;
@@ -25,7 +25,7 @@ function getData() {
   localStorage.setItem('index', index);
   localStorage.setItem('name', name);
   localStorage.setItem('nic', nic);
-  localStorage.setItem('year', year);
+  //localStorage.setItem('year', year);
   //save.step02
   localStorage.setItem('Drank', Drank);
   localStorage.setItem('Irank', Irank);
