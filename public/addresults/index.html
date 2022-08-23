@@ -28,7 +28,6 @@
         <li>Step 02</li>
         <li>Step 03</li>
         <li>Step 04</li>
-        <!-- <li>Step 05</li> -->
       </ul>
       <!-- fieldsets -->
       <fieldset>
@@ -51,7 +50,7 @@
           required
         />
         <label class="fs-subtitle">Index Number</label>
-        <input type="text" name="index" id="index" placeholder="Index Number" />
+        <input type="text" name="key" id="index" placeholder="Index Number" />
         <label class="fs-subtitle">NIC Number</label>
         <input type="text" name="nic" id="nic" placeholder="NIC Number" />
         <input
@@ -66,22 +65,22 @@
         <h3 class="fs-subtitle">Your rankings and Subject stream</h3>
         <input
           type="text"
-          name="Drank"
+          name="districtRank"
           id="Drank"
           placeholder="District Rank"
           required
         />
         <input
           type="text"
-          name="Irank"
+          name="islandRank"
           id="Irank"
           placeholder="Island Rank"
           required
         />
         <input
           type="text"
-          name="zscore"
-          id="zscore"
+          name="zScore"
+          id="zScore"
           placeholder="Z-Score"
           required
         />
@@ -115,7 +114,7 @@
           placeholder="Subject 01"
           required
         />
-        <select class="resultpick" id="res1" required>
+        <select class="resultpick" id="res1" name="subR1" required>
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
@@ -131,7 +130,7 @@
           placeholder="Subject 02"
           required
         />
-        <select class="resultpick" id="res2">
+        <select class="resultpick" id="res2" name="subR2">
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
@@ -146,7 +145,7 @@
           placeholder="Subject 03"
           required
         />
-        <select class="resultpick" id="res3">
+        <select class="resultpick" id="res3" name="subR3">
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
@@ -169,7 +168,7 @@
       <fieldset>
         <h2 class="fs-title">Results</h2>
         <label class="fs-subtitle">English Result</label>
-        <select class="resultpick" id="engres" required>
+        <select class="resultpick" id="engres" name="english" required>
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
@@ -180,7 +179,7 @@
         <label class="fs-subtitle">Common General Test Marks</label>
         <input
           type="number"
-          name="cgtest"
+          name="generalTest"
           id="cgtest"
           placeholder="COMMON GENERAL TEST"
           required
@@ -196,13 +195,13 @@
           name="submit"
           class="submit action-button"
           value="Submit"
-          onclick="getData()"
         />
       </fieldset>
     </form>
 
     <script src="./form.js"></script>
-    <script src="./getdata.js"></script>
+    <script src="./formSubmit.js"></script>
+    <!-- <script src="./getdata.js"></script> -->
     <script></script>
 
     <!-- <footer><span style="text-align: center; flex: auto;">Chutte &copy;2022</span></footer> -->

@@ -75,12 +75,12 @@ function getResultOriginal(examIndexNo) {
 }
 
 function getResult(examIndexNo) {
-  const url = `https://2l77ul.deta.dev/result/${examIndexNo}`;
+  const url = `https://doenets.deta.dev/result/${examIndexNo}`;
   fetch(url).then((response) => {
     if (response.status === 200) {
       response.json().then((data) => getResultOur(data));
     } else {
-      console.log(response.status + ' ' + response.statusText);
+      //console.log(response.status + ' ' + response.statusText);
       getResultOriginal(examIndexNo);
     }
   });
@@ -112,7 +112,7 @@ function injectData(data) {
   } = data;
 
   document.getElementById('index').innerHTML = key;
-  document.getElementById('name').innerHTML = name;
+  document.getElementById('name').innerHTML = name.toUpperCase();
   document.getElementById('nic').innerHTML = nic;
   document.getElementById('year').innerHTML = year;
   document.getElementById('Drank').innerHTML = districtRank;
