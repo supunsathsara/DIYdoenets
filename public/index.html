@@ -1,210 +1,3708 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="default-style">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIY Doenets.lk</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="./jquery.min.js" type="text/javascript"></script>
-    <!-- <script src="./jquery.easing.min.js" type="text/javascript"></script> -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
-      integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- <script src="getdata.js"></script> -->
+    <title>Department of Examinations - Sri Lanka</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+      script-src 'self' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline' fonts.googleapis.com cdnjs.cloudflare.com;
+      font-src 'self' data: fonts.googleapis.com fonts.gstatic.com;
+      connect-src 'self' doenets.lk/cms *.doenets.lk 13.229.60.110:5002;
+      img-src 'self' doenets.lk/cms *.doenets.lk;
+      frame-src 'self' player.vimeo.com *.google.com;"
+    />
+    <meta name="Referrer-Policy" value="same-origin" />
+    <!-- TODO: Remove 3.0.175.95 (or any pre-production urls) from above CSP meta -->
+    <meta name="description" content />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Main font -->
+    <link href="css/css.css" rel="stylesheet" />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/ionicons.css" />
+
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
+
+    <!-- Layout helpers -->
+    <script src="js/layout-helpers.js"></script>
+    <style type="text/css">
+      .layout-fixed .layout-1 .layout-sidenav,
+      .layout-fixed-offcanvas .layout-1 .layout-sidenav {
+        top: 0px !important;
+      }
+      .layout-container {
+        padding-top: 0px !important;
+      }
+      .layout-content {
+        padding-bottom: 0px !important;
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/styles.bbdbd47b5d3e4d5c4bd6.css" />
+    <style>
+      [_nghost-c0] {
+        display: block;
+      }
+    </style>
+    <style>
+      [_nghost-c1] {
+        display: block;
+      }
+    </style>
+    <style>
+      [_nghost-c1] .layout-loading .sidenav-link {
+        transition: none !important;
+      }
+    </style>
+    <style>
+      [_nghost-c2] {
+        display: block;
+      }
+    </style>
+    <style>
+      body[_ngcontent-c2] {
+        background-color: maroon;
+      }
+    </style>
+    <style>
+      [_nghost-c3] {
+        display: block;
+      }
+    </style>
+    <style></style>
+    <style>
+      [_nghost-c5] .swiper-container {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+      }
+      [_nghost-c5] .swiper-container-no-flexbox .swiper-slide {
+        float: left;
+      }
+      [_nghost-c5] .swiper-container-vertical > .swiper-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+      [_nghost-c5] .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+      [_nghost-c5] .swiper-container-android .swiper-slide,
+      [_nghost-c5] .swiper-wrapper {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+      [_nghost-c5] .swiper-container-multirow > .swiper-wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+      [_nghost-c5] .swiper-container-free-mode > .swiper-wrapper {
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        margin: 0 auto;
+      }
+      [_nghost-c5] .swiper-slide {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: transform, -webkit-transform;
+      }
+      [_nghost-c5] .swiper-slide-invisible-blank {
+        visibility: hidden;
+      }
+      [_nghost-c5] .swiper-container-autoheight,
+      [_nghost-c5] .swiper-container-autoheight .swiper-slide {
+        height: auto;
+      }
+      [_nghost-c5] .swiper-container-autoheight .swiper-wrapper {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-transition-property: height, -webkit-transform;
+        transition-property: transform, height, -webkit-transform;
+      }
+      [_nghost-c5] .swiper-container-3d {
+        -webkit-perspective: 1200px;
+        perspective: 1200px;
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-cube-shadow,
+      [_nghost-c5] .swiper-container-3d .swiper-slide,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-bottom,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-left,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-right,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-top,
+      [_nghost-c5] .swiper-container-3d .swiper-wrapper {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-bottom,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-left,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-right,
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-top {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 10;
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-left {
+        background-image: -webkit-gradient(
+          linear,
+          right top,
+          left top,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0))
+        );
+        background-image: linear-gradient(
+          to left,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-right {
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0))
+        );
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-top {
+        background-image: -webkit-gradient(
+          linear,
+          left bottom,
+          left top,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0))
+        );
+        background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+      }
+      [_nghost-c5] .swiper-container-3d .swiper-slide-shadow-bottom {
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0))
+        );
+        background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+      }
+      [_nghost-c5] .swiper-container-wp8-horizontal,
+      [_nghost-c5] .swiper-container-wp8-horizontal > .swiper-wrapper {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+      }
+      [_nghost-c5] .swiper-container-wp8-vertical,
+      [_nghost-c5] .swiper-container-wp8-vertical > .swiper-wrapper {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+      }
+      [_nghost-c5] .swiper-button-next,
+      [_nghost-c5] .swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 44px;
+        margin-top: -22px;
+        z-index: 10;
+        cursor: pointer;
+        background-size: 27px 44px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      [_nghost-c5] .swiper-button-next.swiper-button-disabled,
+      [_nghost-c5] .swiper-button-prev.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+      }
+      [_nghost-c5] .swiper-button-prev,
+      [_nghost-c5] .swiper-container-rtl .swiper-button-next {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+        left: 10px;
+        right: auto;
+      }
+      [_nghost-c5] .swiper-button-next,
+      [_nghost-c5] .swiper-container-rtl .swiper-button-prev {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+        right: 10px;
+        left: auto;
+      }
+      [_nghost-c5] .swiper-button-prev.swiper-button-white,
+      [_nghost-c5]
+        .swiper-container-rtl
+        .swiper-button-next.swiper-button-white {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+      }
+      [_nghost-c5] .swiper-button-next.swiper-button-white,
+      [_nghost-c5]
+        .swiper-container-rtl
+        .swiper-button-prev.swiper-button-white {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+      }
+      [_nghost-c5] .swiper-button-prev.swiper-button-black,
+      [_nghost-c5]
+        .swiper-container-rtl
+        .swiper-button-next.swiper-button-black {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+      }
+      [_nghost-c5] .swiper-button-next.swiper-button-black,
+      [_nghost-c5]
+        .swiper-container-rtl
+        .swiper-button-prev.swiper-button-black {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+      }
+      [_nghost-c5] .swiper-button-lock {
+        display: none;
+      }
+      [_nghost-c5] .swiper-pagination {
+        position: absolute;
+        text-align: center;
+        -webkit-transition: opacity 0.3s;
+        transition: 0.3s opacity;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+      }
+      [_nghost-c5] .swiper-pagination.swiper-pagination-hidden {
+        opacity: 0;
+      }
+      [_nghost-c5] .swiper-container-horizontal > .swiper-pagination-bullets,
+      [_nghost-c5] .swiper-pagination-custom,
+      [_nghost-c5] .swiper-pagination-fraction {
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+      }
+      [_nghost-c5] .swiper-pagination-bullets-dynamic {
+        overflow: hidden;
+        font-size: 0;
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet {
+        -webkit-transform: scale(0.33);
+        transform: scale(0.33);
+        position: relative;
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active-main {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active-prev {
+        -webkit-transform: scale(0.66);
+        transform: scale(0.66);
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active-prev-prev {
+        -webkit-transform: scale(0.33);
+        transform: scale(0.33);
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active-next {
+        -webkit-transform: scale(0.66);
+        transform: scale(0.66);
+      }
+      [_nghost-c5]
+        .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet-active-next-next {
+        -webkit-transform: scale(0.33);
+        transform: scale(0.33);
+      }
+      [_nghost-c5] .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 100%;
+        opacity: 0.2;
+      }
+      [_nghost-c5] button.swiper-pagination-bullet {
+        border: none;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      [_nghost-c5] .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+      }
+      [_nghost-c5] .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #007aff;
+      }
+      [_nghost-c5] .swiper-container-vertical > .swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+      }
+      [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-bullets
+        .swiper-pagination-bullet {
+        margin: 6px 0;
+        display: block;
+      }
+      [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 8px;
+      }
+      [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet {
+        display: inline-block;
+        -webkit-transition: top 0.2s, -webkit-transform 0.2s;
+        transition: 0.2s top, 0.2s -webkit-transform;
+        transition: 0.2s transform, 0.2s top;
+        transition: 0.2s transform, 0.2s top, 0.2s -webkit-transform;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal
+        > .swiper-pagination-bullets
+        .swiper-pagination-bullet {
+        margin: 0 4px;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal
+        > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal
+        > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet {
+        -webkit-transition: left 0.2s, -webkit-transform 0.2s;
+        transition: 0.2s left, 0.2s -webkit-transform;
+        transition: 0.2s transform, 0.2s left;
+        transition: 0.2s transform, 0.2s left, 0.2s -webkit-transform;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal.swiper-container-rtl
+        > .swiper-pagination-bullets-dynamic
+        .swiper-pagination-bullet {
+        -webkit-transition: right 0.2s, -webkit-transform 0.2s;
+        transition: 0.2s right, 0.2s -webkit-transform;
+        transition: 0.2s transform, 0.2s right;
+        transition: 0.2s transform, 0.2s right, 0.2s -webkit-transform;
+      }
+      [_nghost-c5] .swiper-pagination-progressbar {
+        background: rgba(0, 0, 0, 0.25);
+        position: absolute;
+      }
+      [_nghost-c5]
+        .swiper-pagination-progressbar
+        .swiper-pagination-progressbar-fill {
+        background: #007aff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+      }
+      [_nghost-c5]
+        .swiper-container-rtl
+        .swiper-pagination-progressbar
+        .swiper-pagination-progressbar-fill {
+        -webkit-transform-origin: right top;
+        transform-origin: right top;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal
+        > .swiper-pagination-progressbar,
+      [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+        width: 100%;
+        height: 4px;
+        left: 0;
+        top: 0;
+      }
+      [_nghost-c5]
+        .swiper-container-horizontal
+        > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+      [_nghost-c5] .swiper-container-vertical > .swiper-pagination-progressbar {
+        width: 4px;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+      [_nghost-c5] .swiper-pagination-progressbar.swiper-pagination-white {
+        background: rgba(255, 255, 255, 0.25);
+      }
+      [_nghost-c5]
+        .swiper-pagination-progressbar.swiper-pagination-white
+        .swiper-pagination-progressbar-fill {
+        background: #fff;
+      }
+      [_nghost-c5] .swiper-pagination-black .swiper-pagination-bullet-active {
+        background: #000;
+      }
+      [_nghost-c5] .swiper-pagination-progressbar.swiper-pagination-black {
+        background: rgba(0, 0, 0, 0.25);
+      }
+      [_nghost-c5]
+        .swiper-pagination-progressbar.swiper-pagination-black
+        .swiper-pagination-progressbar-fill {
+        background: #000;
+      }
+      [_nghost-c5] .swiper-pagination-lock {
+        display: none;
+      }
+      [_nghost-c5] .swiper-scrollbar {
+        border-radius: 10px;
+        position: relative;
+        -ms-touch-action: none;
+        background: rgba(0, 0, 0, 0.1);
+      }
+      [_nghost-c5] .swiper-container-horizontal > .swiper-scrollbar {
+        position: absolute;
+        left: 1%;
+        bottom: 3px;
+        z-index: 50;
+        height: 5px;
+        width: 98%;
+      }
+      [_nghost-c5] .swiper-container-vertical > .swiper-scrollbar {
+        position: absolute;
+        right: 3px;
+        top: 1%;
+        z-index: 50;
+        width: 5px;
+        height: 98%;
+      }
+      [_nghost-c5] .swiper-scrollbar-drag {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border-radius: 10px;
+        left: 0;
+        top: 0;
+      }
+      [_nghost-c5] .swiper-scrollbar-cursor-drag {
+        cursor: move;
+      }
+      [_nghost-c5] .swiper-scrollbar-lock {
+        display: none;
+      }
+      [_nghost-c5] .swiper-zoom-container {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+      }
+      [_nghost-c5] .swiper-zoom-container > canvas,
+      [_nghost-c5] .swiper-zoom-container > img,
+      [_nghost-c5] .swiper-zoom-container > svg {
+        max-width: 100%;
+        max-height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+      }
+      [_nghost-c5] .swiper-slide-zoomed {
+        cursor: move;
+      }
+      [_nghost-c5] .swiper-lazy-preloader {
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -21px;
+        margin-top: -21px;
+        z-index: 10;
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+        -webkit-animation: 1s steps(12, end) infinite swiper-preloader-spin;
+        animation: 1s steps(12, end) infinite swiper-preloader-spin;
+      }
+      [_nghost-c5] .swiper-lazy-preloader:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      [_nghost-c5] .swiper-lazy-preloader-white:after {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+      }
+      @-webkit-keyframes swiper-preloader-spin {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes swiper-preloader-spin {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      [_nghost-c5] .swiper-container .swiper-notification {
+        position: absolute;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        opacity: 0;
+        z-index: -1000;
+      }
+      [_nghost-c5]
+        .swiper-container-fade.swiper-container-free-mode
+        .swiper-slide {
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+      [_nghost-c5] .swiper-container-fade .swiper-slide {
+        pointer-events: none;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+      }
+      [_nghost-c5] .swiper-container-fade .swiper-slide .swiper-slide {
+        pointer-events: none;
+      }
+      [_nghost-c5] .swiper-container-fade .swiper-slide-active,
+      [_nghost-c5]
+        .swiper-container-fade
+        .swiper-slide-active
+        .swiper-slide-active {
+        pointer-events: auto;
+      }
+      [_nghost-c5] .swiper-container-cube {
+        overflow: visible;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-slide {
+        pointer-events: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 1;
+        visibility: hidden;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        width: 100%;
+        height: 100%;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-slide .swiper-slide {
+        pointer-events: none;
+      }
+      [_nghost-c5] .swiper-container-cube.swiper-container-rtl .swiper-slide {
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-slide-active,
+      [_nghost-c5]
+        .swiper-container-cube
+        .swiper-slide-active
+        .swiper-slide-active {
+        pointer-events: auto;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-slide-active,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-next,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-next + .swiper-slide,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-prev {
+        pointer-events: auto;
+        visibility: visible;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-slide-shadow-bottom,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-shadow-left,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-shadow-right,
+      [_nghost-c5] .swiper-container-cube .swiper-slide-shadow-top {
+        z-index: 0;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      [_nghost-c5] .swiper-container-cube .swiper-cube-shadow {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.6;
+        -webkit-filter: blur(50px);
+        filter: blur(50px);
+        z-index: 0;
+      }
+      [_nghost-c5] .swiper-container-flip {
+        overflow: visible;
+      }
+      [_nghost-c5] .swiper-container-flip .swiper-slide {
+        pointer-events: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 1;
+      }
+      [_nghost-c5] .swiper-container-flip .swiper-slide .swiper-slide {
+        pointer-events: none;
+      }
+      [_nghost-c5] .swiper-container-flip .swiper-slide-active,
+      [_nghost-c5]
+        .swiper-container-flip
+        .swiper-slide-active
+        .swiper-slide-active {
+        pointer-events: auto;
+      }
+      [_nghost-c5] .swiper-container-flip .swiper-slide-shadow-bottom,
+      [_nghost-c5] .swiper-container-flip .swiper-slide-shadow-left,
+      [_nghost-c5] .swiper-container-flip .swiper-slide-shadow-right,
+      [_nghost-c5] .swiper-container-flip .swiper-slide-shadow-top {
+        z-index: 0;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      [_nghost-c5] .swiper-container-coverflow .swiper-wrapper {
+        -ms-perspective: 1200px;
+      }
+      [_nghost-c5] .swiper-container {
+        overflow: hidden !important;
+        width: 100%;
+      }
+      [_nghost-c5]
+        .swiper-container
+        .swiper-pagination-bullet.swiper-pagination-bullet-active.bg-transparent {
+        background: 0 0 !important;
+      }
+      [_nghost-c5] .swiper-button-next,
+      [_nghost-c5] .swiper-button-prev {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+      [_nghost-c5] .swiper-button-next.custom-icon,
+      [_nghost-c5] .swiper-button-prev.custom-icon {
+        background-image: none;
+        font-size: 2rem;
+        line-height: 1;
+      }
+      [dir='rtl'] [_nghost-c5] .swiper-button-next.custom-icon,
+      [dir='rtl'] [_nghost-c5] .swiper-button-prev.custom-icon {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+      [_nghost-c5] .swiper-button-next.swiper-button-white,
+      [_nghost-c5] .swiper-button-prev.swiper-button-white {
+        color: #fff;
+      }
+      [dir='rtl'] [_nghost-c5] .swiper-button-next {
+        right: auto;
+        left: 10px;
+      }
+      [dir='rtl'] [_nghost-c5] .swiper-button-prev {
+        right: 10px;
+        left: auto;
+      }
+      [_nghost-c5] .swiper-pagination-bullet {
+        background: rgba(0, 0, 0, 0.7);
+      }
+      [_nghost-c5] .swiper-pagination-progressbar,
+      [_nghost-c5] .swiper-scrollbar {
+        background: rgba(0, 0, 0, 0.08);
+      }
+      [_nghost-c5] .swiper-scrollbar-drag {
+        background: rgba(0, 0, 0, 0.3);
+      }
+      [_nghost-c5] .swiper-pagination-white .swiper-pagination-bullet {
+        background: #fff !important;
+      }
+      [_nghost-c5] .swiper-pagination-white .swiper-pagination-bullet-active {
+        background: #fff !important;
+      }
+      [_nghost-c5] .swiper-scrollbar-white {
+        background: rgba(255, 255, 255, 0.2) !important;
+      }
+      [_nghost-c5] .swiper-scrollbar-white .swiper-scrollbar-drag {
+        background: #fff !important;
+      }
+      [dir='rtl']
+        [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-bullets {
+        right: auto;
+        left: 10px;
+      }
+      [dir='rtl']
+        [_nghost-c5]
+        .swiper-container-vertical
+        > .swiper-pagination-progressbar {
+        right: 0;
+        left: auto;
+      }
+      [dir='rtl'] [_nghost-c5] .swiper-container-vertical > .swiper-scrollbar {
+        right: auto;
+        left: 3px;
+      }
+    </style>
+    <style>
+      .carousel-title[_ngcontent-c5] {
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        position: absolute;
+        left: 5%;
+        top: 75%;
+        z-index: 10;
+        -webkit-text-stroke: 1px #444;
+        text-align: center;
+        font-size: 3rem;
+        color: #fff;
+        background-color: transparent;
+      }
+      .carousel-desc[_ngcontent-c5] {
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        position: absolute;
+        left: 15%;
+        top: 47%;
+        z-index: 10;
+        max-width: 50ch;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 1;
+        font-size: 1.5rem;
+        color: #ffff;
+      }
+    </style>
+    <style>
+      .title[_ngcontent-c6] {
+        text-align: center;
+        color: #30a8ff;
+        padding-bottom: 2%;
+      }
+      .text-center[_ngcontent-c6] {
+        text-align: center;
+      }
+      .card-content[_ngcontent-c6] {
+        color: #fff;
+        border-radius: 0.3rem;
+      }
+      .card-glow-er[_ngcontent-c6] {
+        background-color: #d39519;
+      }
+      .card-glow-er[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #8f6209;
+        box-shadow: 0 0 2px #8f6209;
+        color: #3c4149;
+      }
+      .card-glow-oc[_ngcontent-c6] {
+        background-color: #00bc77;
+      }
+      .card-glow-oc[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #018152;
+        box-shadow: 0 0 2px #018152;
+        color: #3c4149;
+      }
+      .card-glow-ad[_ngcontent-c6] {
+        background-color: #07bcb3;
+      }
+      .card-glow-ad[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #05837d;
+        box-shadow: 0 0 2px #05837d;
+        color: #3c4149;
+      }
+      .card-glow-oe[_ngcontent-c6] {
+        background-color: #aba0ef;
+      }
+      .card-glow-oe[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #746da3;
+        box-shadow: 0 0 2px #746da3;
+        color: #3c4149;
+      }
+      .card-glow-pn[_ngcontent-c6] {
+        background-color: #ff6363;
+      }
+      .card-glow-pn[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #923939;
+        box-shadow: 0 0 2px #923939;
+        color: #3c4149;
+      }
+      .card-glow-evr[_ngcontent-c6] {
+        background-color: #a65bd8;
+      }
+      .card-glow-evr[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 0 2px #653883;
+        box-shadow: 0 0 2px #653883;
+        color: #3c4149;
+      }
+      h1[_ngcontent-c6] {
+        -webkit-text-stroke: 1px #000;
+        color: #fff;
+        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000;
+      }
+      .btn-shiny[_ngcontent-c6] {
+        background-color: #004a7f;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-animation: 2.5s infinite glowing;
+        animation: 1.5s infinite glowing;
+      }
+      @-webkit-keyframes glowing {
+        0%,
+        100% {
+          background-color: #b20000;
+          -moz-box-shadow: 0 0 3px #b20000;
+        }
+        50% {
+          background-color: #b20000;
+          -moz-box-shadow: 0 0 20px #b20000;
+        }
+      }
+      @keyframes glowing {
+        0%,
+        100% {
+          background-color: #b20000;
+          -webkit-box-shadow: 0 0 3px #b20000;
+          box-shadow: 0 0 3px #b20000;
+        }
+        50% {
+          background-color: #b20000;
+          -webkit-box-shadow: 0 0 20px #b20000;
+          box-shadow: 0 0 20px #b20000;
+        }
+      }
+      .e-service[_ngcontent-c6] {
+        cursor: pointer;
+        -webkit-box-shadow: 0 1px 1px 1px #e1e1e7;
+        box-shadow: 0 1px 1px 1px #e1e1e7;
+        letter-spacing: inherit;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+      }
+      .e-service[_ngcontent-c6]:hover {
+        -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.29);
+        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.29);
+        letter-spacing: 0.04rem;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+      }
+    </style>
+    <style>
+      h2[_ngcontent-c7] {
+        font-size: 1.2rem !important;
+      }
+    </style>
+    <style>
+      [_nghost-c8] ngx-image-gallery .info-container {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      [_nghost-c8] ngx-image-gallery .images-container > .loading-animation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      [_nghost-c8]
+        ngx-image-gallery
+        .images-container
+        > .loading-animation
+        > svg {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+      }
+      [_nghost-c8] ngx-image-gallery .images-container {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+        flex: 1 1 0%;
+      }
+      [_nghost-c8] ngx-image-gallery .galleria {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.arrow {
+        -webkit-transform: scaleX(-1) !important;
+        transform: scaleX(-1) !important;
+      }
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.arrow.left {
+        right: 0 !important;
+        left: auto !important;
+      }
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.arrow.right {
+        right: auto !important;
+        left: 0 !important;
+      }
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.left-top.left-top,
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.right-top.left-top {
+        right: 10px !important;
+        left: auto !important;
+      }
+      [dir='rtl'] [_nghost-c8] ngx-image-gallery > .control.left-top.right-top,
+      [dir='rtl']
+        [_nghost-c8]
+        ngx-image-gallery
+        > .control.right-top.right-top {
+        right: auto !important;
+        left: 10px !important;
+      }
+      .default-style [_nghost-c8] ngx-image-gallery {
+        z-index: 1090;
+      }
+      .material-style [_nghost-c8] ngx-image-gallery {
+        z-index: 1090;
+      }
+    </style>
+    <style>
+      .title[_ngcontent-c8] {
+        text-align: center;
+        color: #30a8ff;
+        padding: 5% 0 2%;
+      }
+      .summery[_ngcontent-c8] {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+    <style>
+      .title[_ngcontent-c9] {
+        text-align: center;
+        color: #30a8ff;
+        padding: 5% 0 2%;
+      }
+      .summery[_ngcontent-c9] {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
   </head>
-  <body>
-    <h1 style="flex: content; text-align: center; margin: 20px">
-      DIY doenets.lk
-    </h1>
-    <!-- multistep form -->
-    <form id="msform">
-      <!-- progressbar -->
-      <ul id="progressbar">
-        <li class="active">Step 01</li>
-        <li>Step 02</li>
-        <li>Step 03</li>
-        <li>Step 04</li>
-        <!-- <li>Step 05</li> -->
-      </ul>
-      <!-- fieldsets -->
-      <fieldset>
-        <h2 class="fs-title">Enter Your basic details</h2>
-        <label class="fs-subtitle">Exam Year</label>
-        <input
-          type="text"
-          name="year"
-          id="year"
-          placeholder="Year"
-          value="2021"
-          required
-        />
-        <label class="fs-subtitle">Full Name</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Full Name"
-          required
-        />
-        <label class="fs-subtitle">Index Number</label>
-        <input type="text" name="index" id="index" placeholder="Index Number" />
-        <label class="fs-subtitle">NIC Number</label>
-        <input type="text" name="nic" id="nic" placeholder="NIC Number" />
-        <input
-          type="button"
-          name="next"
-          class="next action-button"
-          value="Next"
-        />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Ranks</h2>
-        <h3 class="fs-subtitle">Your rankings and Subject stream</h3>
-        <input
-          type="text"
-          name="Drank"
-          id="Drank"
-          placeholder="District Rank"
-          required
-        />
-        <input
-          type="text"
-          name="Irank"
-          id="Irank"
-          placeholder="Island Rank"
-          required
-        />
-        <input
-          type="text"
-          name="zscore"
-          id="zscore"
-          placeholder="Z-Score"
-          required
-        />
-        <input
-          type="text"
-          name="stream"
-          id="stream"
-          placeholder="Subject Stream"
-          required
-        />
-        <input
-          type="button"
-          name="previous"
-          class="previous action-button"
-          value="Previous"
-        />
-        <input
-          type="button"
-          name="next"
-          class="next action-button"
-          value="Next"
-        />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Results</h2>
-        <label class="fs-subtitle">Subject 01</label>
-        <input
-          type="text"
-          name="sub1"
-          id="sub1"
-          placeholder="Subject 01"
-          required
-        />
-        <select class="resultpick" id="res1" required>
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="S">S</option>
-          <option value="W">W</option>
-        </select>
-        <br />
-        <label class="fs-subtitle">Subject 02</label>
-        <input
-          type="text"
-          name="sub2"
-          id="sub2"
-          placeholder="Subject 02"
-          required
-        />
-        <select class="resultpick" id="res2">
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="S">S</option>
-          <option value="W">W</option>
-        </select>
-        <label class="fs-subtitle"> Subject 03</label>
-        <input
-          type="text"
-          name="sub3"
-          id="sub3"
-          placeholder="Subject 03"
-          required
-        />
-        <select class="resultpick" id="res3">
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="S">S</option>
-          <option value="W">W</option>
-        </select>
-        <input
-          type="button"
-          name="previous"
-          class="previous action-button"
-          value="Previous"
-        />
-        <input
-          type="button"
-          name="next"
-          class="next action-button"
-          value="Next"
-        />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Results</h2>
-        <label class="fs-subtitle">English Result</label>
-        <select class="resultpick" id="engres" required>
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="S">S</option>
-          <option value="W">W</option>
-        </select>
-        <br />
-        <label class="fs-subtitle">Common General Test Marks</label>
-        <input
-          type="number"
-          name="cgtest"
-          id="cgtest"
-          placeholder="COMMON GENERAL TEST"
-          required
-        />
-        <input
-          type="button"
-          name="previous"
-          class="previous action-button"
-          value="Previous"
-        />
-        <input
-          type="submit"
-          name="submit"
-          class="submit action-button"
-          value="Submit"
-          onclick="getData()"
-        />
-      </fieldset>
-    </form>
+  <body class>
+    <!-- App root -->
+    <app-root _nghost-c0 ng-version="7.0.4"
+      ><div _ngcontent-c0>
+        <!---->
+        <router-outlet _ngcontent-c0></router-outlet
+        ><app-layout-horizontal-sidenav _nghost-c1
+          ><div
+            _ngcontent-c1
+            class="layout-wrapper layout-1 layout-without-sidenav"
+          >
+            <div _ngcontent-c1 class="layout-inner">
+              <app-layout-navbar _ngcontent-c1 class="layout-navbar" _nghost-c2
+                ><nav
+                  _ngcontent-c2
+                  class="navbar navbar-expand-lg align-items-lg-center container-p-x bg-navbar-theme animated fadeIn"
+                >
+                  <div _ngcontent-c2 class="col-12 fade-out-custom">
+                    <!---->
+                    <div
+                      _ngcontent-c2
+                      class="row d-flex justify-content-center"
+                    >
+                      <!---->
+                      <div
+                        _ngcontent-c2
+                        class="col-12 pageBanner"
+                        style="position: relative"
+                      >
+                        <a _ngcontent-c2 routerlink="/" href="/">
+                          <div _ngcontent-c2 class="col-12 bannerLink"></div>
+                        </a>
+                      </div>
+                    </div>
 
-    <script src="./form.js"></script>
-    <script src="./getdata.js"></script>
-    <script></script>
+                    <!---->
+                    <div _ngcontent-c2 class="row mr-2">
+                      <button
+                        _ngcontent-c2
+                        class="navbar-toggler border-0"
+                        type="button"
+                        id="menu-toggle"
+                      >
+                        <i _ngcontent-c2 class="fas fa-bars text-dark"></i>
+                      </button>
+                      <div
+                        _ngcontent-c2
+                        class="navbar-nav align-items-lg-center ml-auto d-lg-none d-md-block d-sm-block d-xs-block"
+                      ></div>
+                    </div>
 
-    <!-- <footer><span style="text-align: center; flex: auto;">Chutte &copy;2022</span></footer> -->
+                    <div
+                      _ngcontent-c2
+                      class="navbar-collapse collapse"
+                      id="nav-collapse"
+                    >
+                      <hr _ngcontent-c2 class="d-lg-none w-100 my-2" />
+
+                      <div
+                        _ngcontent-c2
+                        class="navbar-nav align-items-lg-center"
+                      >
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-none d-lg-block"
+                          routerlink="/"
+                          href="/"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0 text-dark"
+                            >
+                              <strong _ngcontent-c2> Home</strong></span
+                            >
+                          </span>
+                        </a>
+
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-none d-lg-block"
+                          routerlink="/examresults"
+                          href="/examresults"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2
+                                >School Exam Results</strong
+                              ></span
+                            >
+                          </span>
+                        </a>
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-none d-lg-block"
+                          routerlink="/examcalendar"
+                          href="/examcalendar"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2>Exam Calendar</strong></span
+                            >
+                          </span>
+                        </a>
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-none d-lg-block"
+                          href="https://certificate.doenets.lk/"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2
+                                >Certificates / Verification of Results</strong
+                              ></span
+                            >
+                          </span>
+                        </a>
+
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-lg-none d-md-block d-sm-block d-xs-block"
+                          routerlink="/examresults"
+                          href="/examresults"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2
+                                >School Exam Results</strong
+                              ></span
+                            >
+                          </span>
+                        </a>
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-lg-none d-md-block d-sm-block d-xs-block"
+                          routerlink="/examcalendar"
+                          href="https://doenets.lk/examcalendar"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2>Exam Calendar</strong></span
+                            >
+                          </span>
+                        </a>
+
+                        <a
+                          _ngcontent-c2
+                          class="nav-link d-lg-none d-md-block d-sm-block d-xs-block"
+                          href="https://certificate.doenets.lk/"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                            >
+                              <strong _ngcontent-c2
+                                >Certificates / Verification of Results</strong
+                              ></span
+                            >
+                          </span>
+                        </a>
+
+                        <a
+                          _ngcontent-c2
+                          class="nav-link"
+                          href="https://doenets.lk/contactus"
+                        >
+                          <span
+                            _ngcontent-c2
+                            class="d-inline-flex flex-lg-row-reverse align-items-center align-middle text-dark"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="px-1 mr-lg-2 ml-2 ml-lg-0"
+                              ><strong _ngcontent-c2>Contact Us</strong></span
+                            >
+                          </span>
+                        </a>
+                      </div>
+                      <div
+                        _ngcontent-c2
+                        class="navbar-nav align-items-lg-center ml-auto"
+                      >
+                        <label
+                          _ngcontent-c2
+                          class="nav-item navbar-text navbar-search-box p-0 active"
+                        >
+                          <i
+                            _ngcontent-c2
+                            class="ion ion-ios-search navbar-icon align-middle text-secondary"
+                          ></i>
+                          <input
+                            _ngcontent-c2
+                            aria-multiline="false"
+                            autocapitalize="off"
+                            autocorrect="off"
+                            class="form-control-sm ml-3 w-75 border border-light ng-untouched ng-pristine ng-valid"
+                            id="typeahead-format"
+                            role="combobox"
+                            type="text"
+                            placeholder="Search"
+                            autocomplete="off"
+                            aria-autocomplete="list"
+                            aria-expanded="false"
+                          />
+                          <span _ngcontent-c2 class="navbar-search-input pl-2">
+                          </span>
+                        </label>
+                        <div
+                          _ngcontent-c2
+                          class="demo-navbar-user nav-item show dropdown"
+                        >
+                          <a _ngcontent-c2 class="nav-link">
+                            <span
+                              _ngcontent-c2
+                              class="d-inline-flex flex-lg-row-reverse align-items-center align-middle"
+                            >
+                              <span
+                                _ngcontent-c2
+                                class="px-1 ml-lg-0 d-xs-none text-dark"
+                                style="cursor: pointer"
+                                ><strong _ngcontent-c2>සිංහල</strong></span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                        <div
+                          _ngcontent-c2
+                          class="demo-navbar-user nav-item show dropdown"
+                        >
+                          <a _ngcontent-c2 class="nav-link">
+                            <span
+                              _ngcontent-c2
+                              class="d-inline-flex flex-lg-row-reverse align-items-center align-middle"
+                            >
+                              <span
+                                _ngcontent-c2
+                                class="px-1 ml-lg-0 d-xs-none text-dark"
+                                style="cursor: pointer"
+                                ><strong _ngcontent-c2>தமிழ்</strong></span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                        <div
+                          _ngcontent-c2
+                          class="demo-navbar-user nav-item show dropdown"
+                        >
+                          <a
+                            _ngcontent-c2
+                            class="nav-link btn btn-xs btn-outline-primary text-primary text-left"
+                          >
+                            <span
+                              _ngcontent-c2
+                              class="d-inline-flex flex-lg-row-reverse align-items-center align-middle"
+                            >
+                              <span
+                                _ngcontent-c2
+                                class="px-1 ml-lg-0 d-xs-none text-dark"
+                                style="cursor: pointer"
+                                ><strong _ngcontent-c2>English</strong></span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+              </app-layout-navbar>
+              <div _ngcontent-c1 class="layout-container">
+                <div _ngcontent-c1 class="layout-content">
+                  <div
+                    _ngcontent-c1
+                    class="container-fluid router-transitions flex-grow-1 container-p-y"
+                  >
+                    <router-outlet _ngcontent-c1></router-outlet
+                    ><app-dashboard _nghost-c4
+                      ><app-imagegallery _ngcontent-c4 _nghost-c5
+                        ><div _ngcontent-c5 class="slider mb-4 pb-5">
+                          <!---->
+                          <ngb-carousel
+                            _ngcontent-c5
+                            class="carousel slide"
+                            tabindex="0"
+                            style="display: block"
+                          >
+                            <!---->
+                            <div class="carousel-inner">
+                              <!---->
+                              <div class="carousel-item active">
+                                <!---->
+                                <img
+                                  _ngcontent-c5
+                                  class="animated bounceInRight carousel-img"
+                                  style="background-size: cover !important"
+                                  src="./images/carousel/pic1.jpg"
+                                />
+                                <div _ngcontent-c5 class="row">
+                                  <h3
+                                    _ngcontent-c5
+                                    class="animated slideInLeft carousel-title mb-2"
+                                  ></h3>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <!---->
+                                <img
+                                  _ngcontent-c5=""
+                                  class="animated bounceInRight carousel-img"
+                                  style="background-size: cover !important"
+                                  src="./images/carousel/pic2.jpg"
+                                />
+                                <div _ngcontent-c5="" class="row">
+                                  <h3
+                                    _ngcontent-c5=""
+                                    class="animated slideInLeft carousel-title mb-2"
+                                  >
+                                    Evaluation
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!---->
+                            <!---->
+                          </ngb-carousel>
+                          <img
+                            _ngcontent-c5
+                            class="hotline"
+                            src="images/hotline.png"
+                          />
+                        </div>
+                      </app-imagegallery>
+                      <app-our-services _ngcontent-c4 _nghost-c6
+                        ><!---->
+                        <div _ngcontent-c6 class="mb-3 mt-0">
+                          <br _ngcontent-c6 />
+                          <div _ngcontent-c6 class="row">
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 py-2 d-block d-sm-none"
+                              style="padding-top: 0 !important"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="bg-primary rounded"
+                                style="text-align: center; height: 4rem"
+                              >
+                                <h4
+                                  _ngcontent-c6
+                                  class="text-white"
+                                  style="line-height: 4rem"
+                                >
+                                  CALL US 1911
+                                </h4>
+                              </div>
+                            </div>
+                            <div _ngcontent-c6 class="col-sm-12 py-4">
+                              <h3 _ngcontent-c6>
+                                <strong _ngcontent-c6 translate
+                                  >Our Services</strong
+                                >
+                              </h3>
+                            </div>
+                          </div>
+                          <div
+                            _ngcontent-c6
+                            class="row center-block justify-content-center"
+                          >
+                            <!---->
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Certificates11658194231726.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Online Certificates(G.C.E(O/L and A/L)) /
+                                      Searching the Index Numbers
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Verifications11658194422154.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Verification of Results
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Dharma1631807855115.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Online Certificates(MulikaPiriven,Bauddha
+                                      and Catholic Dharmacharya Examinations)
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/addmission_download.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      School Exam Results
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/results11601029249920.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Other Exam Results
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/evaluation_reports.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Prototype questions, Marking Schemes with
+                                      Question Paper and Evaluation Reports
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/exam_result.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Procurement Notices
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/online_certificates.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Statistics and School Performance Indices
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/news1600766854849.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      News
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/calender1602655329225.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Exam Calendar
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Gallery1601029330349.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Gallery
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/past_papers_new.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Past Papers
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/downloads.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Downloads (Application forms)
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/git_online_exam.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      GIT Online Examination
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/adm1601381089042.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Exam Admission Cards
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Appli1601375707602.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Exams - Applications Called
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/Issued1601375789183.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Exams - Results Issued
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/onlineApplications.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Download the Results Sheets
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/online_application.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Online Applications (School Exams)
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/onlinetile1601003217608.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Online Applications (Recruitment/E. B.
+                                      Exams)
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/past_papers_new1609308380227.jpg');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      Past Papers (Categorized view)
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c6
+                              class="col-sm-12 col-md-3 col-xl-2 mb-4"
+                            >
+                              <div
+                                _ngcontent-c6
+                                class="card bg-dark border-0 text-white shadow"
+                                style="
+                                  min-height: 200px;
+                                  background-size: cover;
+                                  background-position: center center;
+                                  padding: 0px !important;
+                                  background-image: url('images/70Image16378975621681637900513562.png');
+                                "
+                              >
+                                <div
+                                  _ngcontent-c6
+                                  class="card-img-overlay align-bottom e-service"
+                                >
+                                  <div
+                                    _ngcontent-c6
+                                    class="align-middle"
+                                    style="
+                                      width: 100% !important;
+                                      height: 80px;
+                                      background-color: rgba(0, 0, 0, 0.5);
+                                      bottom: 0 !important; /* margin-bottom: 0px; */
+                                      display: block;
+                                      position: absolute;
+                                      left: 0;
+                                    "
+                                  >
+                                    <h5
+                                      _ngcontent-c6
+                                      class="text-center px-1"
+                                      style="padding-top: 10px"
+                                    >
+                                      70th Anniversary Digital Commemorative
+                                      Souvenir
+                                    </h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-our-services>
+                      <app-news-headlines _ngcontent-c4 _nghost-c7
+                        ><div _ngcontent-c7 class="row">
+                          <div
+                            _ngcontent-c7
+                            class="list-group col-lg-8 col-md-12 list-group-flush"
+                          >
+                            <div _ngcontent-c7 class="col-12">
+                              <div
+                                _ngcontent-c7
+                                class="card bg-transparent mb-3 box-shadow-none"
+                              >
+                                <div _ngcontent-c7 class="card-body">
+                                  <h3 _ngcontent-c7>
+                                    <strong _ngcontent-c7 translate
+                                      >News Headlines</strong
+                                    >
+                                  </h3>
+                                  <div _ngcontent-c7>
+                                    <!---->
+                                    <div _ngcontent-c7>
+                                      <li
+                                        _ngcontent-c7
+                                        class="list-group-item py-4 ng-star-inserted"
+                                      >
+                                        <div
+                                          _ngcontent-c7
+                                          class="media flex-wrap"
+                                        >
+                                          <div
+                                            _ngcontent-c7
+                                            class="media-body ml-sm-1"
+                                          >
+                                            <h5 _ngcontent-c7 class="mb-2">
+                                              <span
+                                                _ngcontent-c7
+                                                class="text-dark"
+                                                ><strong _ngcontent-c7
+                                                  >Press Release -
+                                                  2022.08.18</strong
+                                                ></span
+                                              >
+                                            </h5>
+                                            <!---->
+
+                                            <div _ngcontent-c7 class="row mt-3">
+                                              <!---->
+                                              <div
+                                                _ngcontent-c7
+                                                class="col-12 col-md-6 pl-0"
+                                              >
+                                                <!---->
+                                                <!---->
+                                                <div
+                                                  _ngcontent-c7
+                                                  class="mb-0 pl-0"
+                                                >
+                                                  <div
+                                                    _ngcontent-c7
+                                                    class="container-fluid d-flex px-2"
+                                                  >
+                                                    <div
+                                                      _ngcontent-c7
+                                                      class="mb-0 pl-0"
+                                                    >
+                                                      <p _ngcontent-c7>
+                                                        Download
+                                                      </p>
+                                                    </div>
+                                                    <p
+                                                      _ngcontent-c7
+                                                      class="mb-0 pr-2"
+                                                    ></p>
+                                                    <!---->
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media_1660879935529.pdf"
+                                                        >English</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media_1660879944755.pdf"
+                                                        >Sinhala</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media_1660879953378.pdf"
+                                                        >Tamil</a
+                                                      >
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!---->
+                                                <!---->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </div>
+                                    <div _ngcontent-c7>
+                                      <li
+                                        _ngcontent-c7
+                                        class="list-group-item py-4 ng-star-inserted"
+                                      >
+                                        <div
+                                          _ngcontent-c7
+                                          class="media flex-wrap"
+                                        >
+                                          <div
+                                            _ngcontent-c7
+                                            class="media-body ml-sm-1"
+                                          >
+                                            <h5 _ngcontent-c7 class="mb-2">
+                                              <span
+                                                _ngcontent-c7
+                                                class="text-dark"
+                                                ><strong _ngcontent-c7
+                                                  >Press Release -
+                                                  2022.08.17</strong
+                                                ></span
+                                              >
+                                            </h5>
+                                            <!---->
+
+                                            <div _ngcontent-c7 class="row mt-3">
+                                              <!---->
+                                              <div
+                                                _ngcontent-c7
+                                                class="col-12 col-md-6 pl-0"
+                                              >
+                                                <!---->
+                                                <!---->
+                                                <div
+                                                  _ngcontent-c7
+                                                  class="mb-0 pl-0"
+                                                >
+                                                  <div
+                                                    _ngcontent-c7
+                                                    class="container-fluid d-flex px-2"
+                                                  >
+                                                    <div
+                                                      _ngcontent-c7
+                                                      class="mb-0 pl-0"
+                                                    >
+                                                      <p _ngcontent-c7>
+                                                        Download
+                                                      </p>
+                                                    </div>
+                                                    <p
+                                                      _ngcontent-c7
+                                                      class="mb-0 pr-2"
+                                                    ></p>
+                                                    <!---->
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media (1)_1660879551332.pdf"
+                                                        >English</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media (1)_1660879569955.pdf"
+                                                        >Sinhala</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/All media (1)_1660879580955.pdf"
+                                                        >Tamil</a
+                                                      >
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!---->
+                                                <!---->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </div>
+                                    <div _ngcontent-c7>
+                                      <li
+                                        _ngcontent-c7
+                                        class="list-group-item py-4 ng-star-inserted"
+                                      >
+                                        <div
+                                          _ngcontent-c7
+                                          class="media flex-wrap"
+                                        >
+                                          <div
+                                            _ngcontent-c7
+                                            class="media-body ml-sm-1"
+                                          >
+                                            <h5 _ngcontent-c7 class="mb-2">
+                                              <span
+                                                _ngcontent-c7
+                                                class="text-dark"
+                                                ><strong _ngcontent-c7
+                                                  >Examinations of the Oriental
+                                                  Studies Society of Sri Lanka -
+                                                  2020 / 2021(2022) (Oriental
+                                                  Pandit Preliminary /
+                                                  Intermediate / Final)</strong
+                                                ></span
+                                              >
+                                            </h5>
+                                            <!----><span _ngcontent-c7>
+                                              Calling applications for
+                                              re-scrutiny of results
+                                            </span>
+
+                                            <div _ngcontent-c7 class="row mt-3">
+                                              <!---->
+                                              <div
+                                                _ngcontent-c7
+                                                class="col-12 col-md-6 pl-0"
+                                              >
+                                                <!---->
+                                                <div
+                                                  _ngcontent-c7
+                                                  class="mb-0 pl-0"
+                                                >
+                                                  <div
+                                                    _ngcontent-c7
+                                                    class="container-fluid d-flex px-2"
+                                                  >
+                                                    <div
+                                                      _ngcontent-c7
+                                                      class="mb-0 pl-0 pr-2"
+                                                    >
+                                                      <p _ngcontent-c7>
+                                                        Download
+                                                      </p>
+                                                    </div>
+                                                    <!---->
+                                                    <div _ngcontent-c7>
+                                                      <!---->
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/Re- Application - Piriven_1660623044411.pdf"
+                                                        >Sinhala</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!---->
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!---->
+                                                <!---->
+                                                <!---->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </div>
+                                    <div _ngcontent-c7>
+                                      <li
+                                        _ngcontent-c7
+                                        class="list-group-item py-4 ng-star-inserted"
+                                      >
+                                        <div
+                                          _ngcontent-c7
+                                          class="media flex-wrap"
+                                        >
+                                          <div
+                                            _ngcontent-c7
+                                            class="media-body ml-sm-1"
+                                          >
+                                            <h5 _ngcontent-c7 class="mb-2">
+                                              <span
+                                                _ngcontent-c7
+                                                class="text-dark"
+                                                ><strong _ngcontent-c7
+                                                  >Press Release -
+                                                  2022.08.01</strong
+                                                ></span
+                                              >
+                                            </h5>
+                                            <!---->
+
+                                            <div _ngcontent-c7 class="row mt-3">
+                                              <!---->
+                                              <div
+                                                _ngcontent-c7
+                                                class="col-12 col-md-6 pl-0"
+                                              >
+                                                <!---->
+                                                <div
+                                                  _ngcontent-c7
+                                                  class="mb-0 pl-0"
+                                                >
+                                                  <div
+                                                    _ngcontent-c7
+                                                    class="container-fluid d-flex px-2"
+                                                  >
+                                                    <div
+                                                      _ngcontent-c7
+                                                      class="mb-0 pl-0 pr-2"
+                                                    >
+                                                      <p _ngcontent-c7>
+                                                        https://onlineexams.gov.lk/eic
+                                                      </p>
+                                                    </div>
+                                                    <!---->
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/සියලු ම මාධ්‍ය ආයතන ප්‍රධානීන් වෙත_1659412950603.pdf"
+                                                        >English</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/සියලු ම මාධ්‍ය ආයතන ප්‍රධානීන් වෙත_1659412969619.pdf"
+                                                        >Sinhala</a
+                                                      >
+                                                    </div>
+                                                    <div _ngcontent-c7>
+                                                      <!----><a
+                                                        _ngcontent-c7
+                                                        class="pr-2"
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        href="/images/resources/NEWS/සියලු ම මාධ්‍ය ආයතන ප්‍රධානීන් වෙත_1659412997431.pdf"
+                                                        >Tamil</a
+                                                      >
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!---->
+                                                <!---->
+                                                <!---->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </div>
+                                    <div _ngcontent-c7 class="mt-1 ml-1">
+                                      <a
+                                        _ngcontent-c7
+                                        class="text-primary"
+                                        routerlink="/news"
+                                        translate
+                                        href="/news"
+                                        >Read More</a
+                                      >
+                                      ...
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            _ngcontent-c7
+                            class="gallery-thumbnail col-lg-4 col-md-12 mb-2"
+                          >
+                            <div _ngcontent-c7 class="row">
+                              <div
+                                _ngcontent-c7
+                                class="img-thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                              >
+                                <a
+                                  _ngcontent-c7
+                                  class="img-fluid-zoom-in center-block"
+                                >
+                                  <img
+                                    _ngcontent-c7
+                                    alt
+                                    class="rounded mx-auto d-block w-75"
+                                    src="images/cxg1638342983533.jpg"
+                                  />
+                                </a>
+                              </div>
+                              <div
+                                _ngcontent-c7
+                                class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                              >
+                                <h2 _ngcontent-c7 class="text-center mt-4">
+                                  Mr. L. M. D. Dharmasena
+                                </h2>
+                              </div>
+                              <div
+                                _ngcontent-c7
+                                class="text-center mb-1 col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                              >
+                                <h5 _ngcontent-c7>
+                                  <small _ngcontent-c7 class="text-muted"
+                                    >Commissioner General of Examinations</small
+                                  >
+                                </h5>
+                              </div>
+                              <div
+                                _ngcontent-c7
+                                class="text-center d-block justify-content-center col-sm-12"
+                              >
+                                <button
+                                  _ngcontent-c7
+                                  class="btn btn-primary submit-btn center-block btn-block"
+                                  routerlink="/tellcommissioner"
+                                  tabindex="0"
+                                >
+                                  <span
+                                    _ngcontent-c7
+                                    class="ion ion-md-mail"
+                                  ></span>
+                                  <span _ngcontent-c7 translate
+                                    >Tell Commissioner General</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-news-headlines>
+                      <app-latest-articles _ngcontent-c4 _nghost-c8
+                        ><div _ngcontent-c8>
+                          <div _ngcontent-c8 class="row">
+                            <div _ngcontent-c8 class="col-sm-12 py-2">
+                              <h3 _ngcontent-c8>
+                                <strong _ngcontent-c8 translate
+                                  >Latest Articles</strong
+                                >
+                              </h3>
+                            </div>
+                          </div>
+                          <div
+                            _ngcontent-c8
+                            class="row spec center-block justify-content-center"
+                          >
+                            <!---->
+                            <div
+                              _ngcontent-c8
+                              class="col-sm-3 col-md-3 col-xl-3 mb-2"
+                            >
+                              <div
+                                _ngcontent-c8
+                                class="card mb-3 sha dow-sm overflow-hidden"
+                                style="height: max-content"
+                              >
+                                <img
+                                  _ngcontent-c8
+                                  alt="Card image cap"
+                                  class="card-img-top"
+                                  src="images/img21642903797659.jpg"
+                                />
+                                <div
+                                  _ngcontent-c8
+                                  class="card-body pb-0 pl-2 pr-2 pt-2"
+                                >
+                                  <p _ngcontent-c8 class="card-title summery">
+                                    Press Conference held on 21.01.2022
+                                    regarding Grade 5 Scholarship Examination
+                                  </p>
+                                  <p _ngcontent-c8 class="card-text"></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c8
+                              class="col-sm-3 col-md-3 col-xl-3 mb-2"
+                            >
+                              <div
+                                _ngcontent-c8
+                                class="card mb-3 sha dow-sm overflow-hidden"
+                                style="height: max-content"
+                              >
+                                <img
+                                  _ngcontent-c8
+                                  alt="Card image cap"
+                                  class="card-img-top"
+                                  src="images/081641575754283.jpg"
+                                />
+                                <div
+                                  _ngcontent-c8
+                                  class="card-body pb-0 pl-2 pr-2 pt-2"
+                                >
+                                  <p _ngcontent-c8 class="card-title summery">
+                                    Mr. L.M. D. Dharmasena being the new
+                                    Commissioner General of Examinations assumed
+                                    duties at the Department of Examinations of
+                                    Sri Lanka in an auspicious moment,
+                                    29.11.2021.
+                                  </p>
+                                  <p _ngcontent-c8 class="card-text"></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c8
+                              class="col-sm-3 col-md-3 col-xl-3 mb-2"
+                            >
+                              <div
+                                _ngcontent-c8
+                                class="card mb-3 sha dow-sm overflow-hidden"
+                                style="height: max-content"
+                              >
+                                <img
+                                  _ngcontent-c8
+                                  alt="Card image cap"
+                                  class="card-img-top"
+                                  src="images/IMG_03741641598619201.jpg"
+                                />
+                                <div
+                                  _ngcontent-c8
+                                  class="card-body pb-0 pl-2 pr-2 pt-2"
+                                >
+                                  <p _ngcontent-c8 class="card-title summery">
+                                    Special Lecture on Positive Thinking
+                                    Conducted by Veteran Psychology Instructor
+                                    Mr. Chamila Kodikara according to the
+                                    Special Invitation of the Commissioner
+                                    General of Examinations - 2022.01.03
+                                  </p>
+                                  <p _ngcontent-c8 class="card-text"></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c8
+                              class="col-sm-3 col-md-3 col-xl-3 mb-2"
+                            >
+                              <div
+                                _ngcontent-c8
+                                class="card mb-3 sha dow-sm overflow-hidden"
+                                style="height: max-content"
+                              >
+                                <img
+                                  _ngcontent-c8
+                                  alt="Card image cap"
+                                  class="card-img-top"
+                                  src="images/021641598902501.jpg"
+                                />
+                                <div
+                                  _ngcontent-c8
+                                  class="card-body pb-0 pl-2 pr-2 pt-2"
+                                >
+                                  <p _ngcontent-c8 class="card-title summery">
+                                    Ceremony to commence duties of the
+                                    Department of Examinations, Sri Lanka for
+                                    the year 2022
+                                  </p>
+                                  <p _ngcontent-c8 class="card-text"></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div _ngcontent-c8 class="row">
+                            <div _ngcontent-c8 class="col-sm-12">
+                              <a
+                                _ngcontent-c8
+                                routerlink="/articles"
+                                href="/articles"
+                              >
+                                <p
+                                  _ngcontent-c8
+                                  class="text-center h6 text-primary"
+                                  translate
+                                >
+                                  View All
+                                </p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </app-latest-articles>
+                      <app-latest-videos _ngcontent-c4 _nghost-c9
+                        ><div _ngcontent-c9 class="row">
+                          <div _ngcontent-c9 class="col-sm-12 py-2">
+                            <h3 _ngcontent-c9>
+                              <strong _ngcontent-c9 translate
+                                >Latest Videos</strong
+                              >
+                            </h3>
+                            <div _ngcontent-c9 class="mb-3">
+                              <div _ngcontent-c9 class="row"></div>
+                              <div
+                                _ngcontent-c9
+                                class="row text-center d-flex justify-content-center"
+                                style="margin: 0 auto"
+                              >
+                                <!---->
+                                <div _ngcontent-c9 class="col-sm-12 col-md-4">
+                                  <div
+                                    _ngcontent-c9
+                                    class="card shadow-sm my-3"
+                                  >
+                                    <div
+                                      _ngcontent-c9
+                                      class="px-2 embed-responsive embed-responsive-4by3 mt-3"
+                                    >
+                                      <!---->
+                                    </div>
+                                    <div _ngcontent-c9 class="row">
+                                      <div _ngcontent-c9 class="col-sm-12">
+                                        <br _ngcontent-c9 />
+                                        <p
+                                          _ngcontent-c9
+                                          class="h6 text-center summery pb-1 px-1"
+                                          style="color: black"
+                                          translate
+                                        >
+                                          Hathweni Peya - (2022-05-18) _ ITN Mr.
+                                          L. M. D. Dharmasena Commissioner
+                                          General of Examinations
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div _ngcontent-c9 class="col-sm-12 col-md-4">
+                                  <div
+                                    _ngcontent-c9
+                                    class="card shadow-sm my-3"
+                                  >
+                                    <div
+                                      _ngcontent-c9
+                                      class="px-2 embed-responsive embed-responsive-4by3 mt-3"
+                                    >
+                                      <!---->
+                                    </div>
+                                    <div _ngcontent-c9 class="row">
+                                      <div _ngcontent-c9 class="col-sm-12">
+                                        <br _ngcontent-c9 />
+                                        <p
+                                          _ngcontent-c9
+                                          class="h6 text-center summery pb-1 px-1"
+                                          style="color: black"
+                                          translate
+                                        >
+                                          Doramadalawa – 2022- 01- 31
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div _ngcontent-c9 class="col-sm-12 col-md-4">
+                                  <div
+                                    _ngcontent-c9
+                                    class="card shadow-sm my-3"
+                                  >
+                                    <div
+                                      _ngcontent-c9
+                                      class="px-2 embed-responsive embed-responsive-4by3 mt-3"
+                                    >
+                                      <!---->
+                                    </div>
+                                    <div _ngcontent-c9 class="row">
+                                      <div _ngcontent-c9 class="col-sm-12">
+                                        <br _ngcontent-c9 />
+                                        <p
+                                          _ngcontent-c9
+                                          class="h6 text-center summery pb-1 px-1"
+                                          style="color: black"
+                                          translate
+                                        >
+                                          Press Release - 2022. 01. 22
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <br _ngcontent-c9 />
+                            <div _ngcontent-c9 class="row">
+                              <div _ngcontent-c9 class="col-sm-12">
+                                <a
+                                  _ngcontent-c9
+                                  routerlink="/gallery"
+                                  href="/gallery"
+                                >
+                                  <p
+                                    _ngcontent-c9
+                                    class="text-center h6"
+                                    style="color: #30a8ff"
+                                    translate
+                                  >
+                                    View All
+                                  </p>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div _ngcontent-c9 class="row"></div>
+                        <br _ngcontent-c9 />
+                        <div _ngcontent-c9 class="row">
+                          <div _ngcontent-c9 class="col-sm-12"></div>
+                        </div>
+                      </app-latest-videos>
+                      <app-other-links _ngcontent-c4 _nghost-c10
+                        ><div _ngcontent-c10 class="row">
+                          <div _ngcontent-c10 class="col-sm-12 py-2">
+                            <h3 _ngcontent-c10>
+                              <strong _ngcontent-c10 translate
+                                >Other links</strong
+                              >
+                            </h3>
+                            <div
+                              _ngcontent-c10
+                              class="row d-flex align-items-start"
+                            >
+                              <!---->
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.gic.gov.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/1919_logo.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://www.facebook.com/doe.gov.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/fb-new.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.moe.gov.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/ministory_of_edu.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.schoolnet.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/schoolNET%26TECH.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://www.oriental.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/oriental1.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.edupub.gov.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/edu_publication.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.nie.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/national_inst_of_edu.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="http://www.youtube.com/c/ChannelNIE"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/NIE1627988714926.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://www.ugc.ac.lk/"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/sl_ugc_logo.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <div _ngcontent-c10 class="col-6 col-md-2">
+                                <div _ngcontent-c10 class="card my-1">
+                                  <a
+                                    _ngcontent-c10
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://manusathhanda.rotaractmora.org/past_papers.htm"
+                                  >
+                                    <img
+                                      _ngcontent-c10
+                                      alt="Card image cap"
+                                      class="card-img-top"
+                                      src="images/HUMAN071608190280607.jpg"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-other-links>
+                    </app-dashboard>
+                  </div>
+                  <app-layout-footer
+                    _ngcontent-c1
+                    _nghost-c3
+                    class="layout-footer"
+                    ><nav _ngcontent-c3 class="myFooter">
+                      <div _ngcontent-c3 class="container">
+                        <div _ngcontent-c3 class="row">
+                          <div
+                            _ngcontent-c3
+                            class="offset-md-1 col-12 col-md-2 mt-5 mb-3 text-center"
+                          >
+                            <img
+                              _ngcontent-c3
+                              src="images/SL-Logo.png"
+                              style="
+                                width: 7rem;
+                                height: auto;
+                                filter: drop-shadow(0px 0px 3px white);
+                              "
+                            />
+                          </div>
+                          <div _ngcontent-c3 class="col-12 col-md-5 mt-5 mb-3">
+                            <h4 _ngcontent-c3>Contact Us</h4>
+                            <ul _ngcontent-c3 class="list-unstyled quick-links">
+                              <li _ngcontent-c3>
+                                <div _ngcontent-c3 class="row pt-3">
+                                  <i
+                                    _ngcontent-c3
+                                    class="fa fa-map-marker-alt col-1"
+                                  ></i>
+                                  <span _ngcontent-c3 class="text-white col-10"
+                                    >Department of Examinations Sri Lanka ,
+                                    Pelawatta, Battaramulla, Sri Lanka.</span
+                                  >
+                                </div>
+                              </li>
+                              <li _ngcontent-c3>
+                                <div _ngcontent-c3 class="row pt-2">
+                                  <i
+                                    _ngcontent-c3
+                                    class="fa fa-envelope-open col-1"
+                                  ></i
+                                  ><span _ngcontent-c3 class="col-10 text-white"
+                                    >E-Mail : exams@doenets.lk</span
+                                  >
+                                </div>
+                              </li>
+                              <li _ngcontent-c3>
+                                <div _ngcontent-c3 class="row pt-2">
+                                  <i _ngcontent-c3 class="fa fa-tty col-1"></i
+                                  ><span _ngcontent-c3 class="col-10 text-white"
+                                    >Hotline : 1911</span
+                                  >
+                                </div>
+                              </li>
+                              <li _ngcontent-c3>
+                                <div _ngcontent-c3 class="row pt-2">
+                                  <i _ngcontent-c3 class="fa fa-phone col-1"></i
+                                  ><span _ngcontent-c3 class="col-10 text-white"
+                                    >Telephone Number : +94 11 2786200, +94 11
+                                    2784203-4</span
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div _ngcontent-c3 class="col-6 col-md-2 mt-5 mb-3">
+                            <h4 _ngcontent-c3 translate>Quick Links</h4>
+                            <ul _ngcontent-c3 class="list-unstyled quick-links">
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-3 text-white"
+                                  routerlink="/examresults"
+                                  translate
+                                  href="/examresults"
+                                  >School Exam Results</a
+                                >
+                              </li>
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-4 text-white"
+                                  routerlink="/examcalendar"
+                                  translate
+                                  href="/examcalendar"
+                                  >Exam Calendar</a
+                                >
+                              </li>
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-4 text-white"
+                                  routerlink="/services"
+                                  translate
+                                  href="/services"
+                                  >Services</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                          <div _ngcontent-c3 class="col-6 col-md-2 mt-5 mb-3">
+                            <h4 _ngcontent-c3 translate>Quick Links</h4>
+                            <ul
+                              _ngcontent-c3
+                              class="list-unstyled quick-links text-white"
+                            >
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-3 text-white"
+                                  translate
+                                  href="/addresults"
+                                  >Add Results</a
+                                >
+                              </li>
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-4 text-white"
+                                  routerlink="/gallery"
+                                  translate
+                                  href="/gallery"
+                                  >Gallery</a
+                                >
+                              </li>
+                              <li _ngcontent-c3>
+                                <a
+                                  _ngcontent-c3
+                                  class="footer-link pt-4 text-white"
+                                  routerlink="/contactus"
+                                  translate
+                                  href="/contactus"
+                                  >Contact Us</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div _ngcontent-c3 class="col-12 mt-1 mb-1">
+                        <div _ngcontent-c3 class="col-10 offset-1">
+                          <hr
+                            _ngcontent-c3
+                            style="background: rgb(93, 93, 93)"
+                          />
+                        </div>
+                        <div _ngcontent-c3 class="d-none d-lg-block">
+                          <div
+                            _ngcontent-c3
+                            class="row mt-2 d-flex align-items-end justify-content-center"
+                          >
+                            <div
+                              _ngcontent-c3
+                              class="col-md-6 d-flex justify-content-center"
+                            >
+                              <div _ngcontent-c3 class="col-md-6">
+                                <div _ngcontent-c3 class="row">
+                                  <div
+                                    _ngcontent-c3
+                                    class="col-md-7 col-12 px-0 d-flex justify-content-end"
+                                  >
+                                    <h5 _ngcontent-c3 class="my-0">
+                                      Developed By
+                                    </h5>
+                                  </div>
+                                  <div
+                                    _ngcontent-c3
+                                    class="col-md-5 col-12 d-flex align-items-end px-0"
+                                  >
+                                    <a
+                                      _ngcontent-c3
+                                      href="http://www.inovaitsys.com"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      <img
+                                        _ngcontent-c3
+                                        class="text-center pl-2"
+                                        src="images/inovaLogo.png"
+                                        style="width: 5rem"
+                                      />
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              _ngcontent-c3
+                              class="col-md-5 d-flex justify-content-center"
+                            >
+                              <div
+                                _ngcontent-c3
+                                class="row d-flex align-items-end"
+                              >
+                                <div
+                                  _ngcontent-c3
+                                  class="col-md-5 col-12 px-0 d-flex justify-content-end"
+                                >
+                                  <h5 _ngcontent-c3 class="my-0">Powered By</h5>
+                                </div>
+                                <div
+                                  _ngcontent-c3
+                                  class="col-md-4 col-6 d-flex align-items-end"
+                                >
+                                  <a
+                                    _ngcontent-c3
+                                    href="https://www.dialog.lk/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <img
+                                      _ngcontent-c3
+                                      class="text-center pl-2"
+                                      src="images/dialog-logo.png"
+                                      style="width: 5rem"
+                                    />
+                                  </a>
+                                </div>
+                                <div
+                                  _ngcontent-c3
+                                  class="col-md-3 col-6 d-flex align-items-end"
+                                >
+                                  <img
+                                    _ngcontent-c3
+                                    class="text-center pl-2"
+                                    src="images/Headstart%20Logo.png"
+                                    style="width: 6rem"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div _ngcontent-c3 class="d-block d-lg-none">
+                          <div _ngcontent-c3 class="col-12">
+                            <div _ngcontent-c3 class="row">
+                              <div
+                                _ngcontent-c3
+                                class="col-5 d-flex justify-content-center"
+                              >
+                                <h5 _ngcontent-c3 class="my-0">Developed By</h5>
+                              </div>
+                              <div
+                                _ngcontent-c3
+                                class="col-7 d-flex justify-content-center"
+                              >
+                                <h5 _ngcontent-c3 class="my-0">Powered By</h5>
+                              </div>
+                            </div>
+                            <div _ngcontent-c3 class="row mt-1">
+                              <div
+                                _ngcontent-c3
+                                class="col-5 d-flex align-items-end justify-content-center"
+                              >
+                                <a
+                                  _ngcontent-c3
+                                  href="http://www.inovaitsys.com"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <img
+                                    _ngcontent-c3
+                                    class="text-center pl-2"
+                                    src="images/inovaLogo.png"
+                                    style="width: 5rem"
+                                  />
+                                </a>
+                              </div>
+                              <div
+                                _ngcontent-c3
+                                class="col-7 d-flex align-items-end justify-content-center"
+                              >
+                                <a
+                                  _ngcontent-c3
+                                  href="https://www.dialog.lk/"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  <img
+                                    _ngcontent-c3
+                                    class="text-center pl-2"
+                                    src="images/dialog-logo.png"
+                                    style="width: 5rem"
+                                  />
+                                </a>
+                                <img
+                                  _ngcontent-c3
+                                  class="text-center pl-2"
+                                  src="images/Headstart%20Logo.png"
+                                  style="width: 6rem"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        _ngcontent-c3
+                        class="row mt-3 d-flex justify-content-center text-center"
+                      >
+                        <div _ngcontent-c3 class="col-12">
+                          <p _ngcontent-c3 class="h6">
+                            Copyright © 2021 - Department of Examinations, Sri
+                            Lanka. All Rights Reserved
+                          </p>
+                        </div>
+                      </div>
+                    </nav>
+                  </app-layout-footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </app-layout-horizontal-sidenav>
+      </div>
+    </app-root>
+    <!-- / App root -->
+    <script src="./js/script.js" />
+    <script
+      type="text/javascript"
+      src="js/runtime.f390748d8234f5100c0d.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/polyfills.4298fc0dd62fe01aeafe.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/main.74324d952a086ab42beb.js"
+    ></script>
   </body>
 </html>

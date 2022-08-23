@@ -140,7 +140,7 @@
                           _ngcontent-c2=""
                           class="nav-link d-none d-lg-block"
                           routerlink="/"
-                          href="https://doenets.lk/"
+                          href="https://doenets.pages.dev"
                         >
                           <span
                             _ngcontent-c2=""
@@ -159,7 +159,7 @@
                           _ngcontent-c2=""
                           class="nav-link d-none d-lg-block"
                           routerlink="/examresults"
-                          href="https://doenets.lk/examresults"
+                          href="https://doenets.pages.dev/examresults"
                         >
                           <span
                             _ngcontent-c2=""
@@ -520,6 +520,7 @@
                                       <input
                                         class="form-control text-center ng-valid ng-touched ng-dirty"
                                         name="examIndexNo"
+                                        id="examIndexNo"
                                         type="text"
                                         placeholder="Enter Your AL index"
                                         maxlength="7"
@@ -547,15 +548,18 @@
                                 <div
                                   class="col-md-12 col-sm-12 col-xs-12 text-center"
                                 >
+                                  <p id="error-box" style="color: red"></p>
                                   <button
                                     class="btn submit-btn search-submit-btn mb-1"
                                     type="button"
+                                    id="submit-btn"
                                   >
                                     <strong translate="">Submit</strong>
                                   </button>
                                   <button
                                     class="btn reset-btn search-submit-btn mb-1"
                                     type="button"
+                                    id="reset-btn"
                                   >
                                     <strong translate="">Reset</strong>
                                   </button>
@@ -567,7 +571,11 @@
                                 <!---->
                                 <!---->
                                 <div class="col-md-12">
-                                  <div class="card border-info watermark">
+                                  <div
+                                    class="card border-info watermark"
+                                    id="result-sheet"
+                                    style="display: none"
+                                  >
                                     <div class="row mt-1">
                                       <div class="col-md-12 mb-3 pr-4 mt-2">
                                         <!-- <i style="font-size:24px" class="ion-md-close float-right">&#xf00d;</i> -->
@@ -1100,10 +1108,9 @@
                                 <a
                                   _ngcontent-c3=""
                                   class="footer-link pt-3 text-white"
-                                  routerlink="/downloads"
                                   translate=""
-                                  href="https://doenets.lk/downloads"
-                                  >Downloads</a
+                                  href="https://doenets.pages.dev/addresults"
+                                  >Add Results</a
                                 >
                               </li>
                               <li _ngcontent-c3="">
@@ -1316,32 +1323,7 @@
       </div>
     </app-root>
     <!-- / App root -->
-    <script>
-      document.getElementById('year').innerHTML = localStorage.getItem('year');
-      document.getElementById('index').innerHTML =
-        localStorage.getItem('index');
-      document.getElementById('name').innerHTML = localStorage.getItem('name');
-      document.getElementById('nic').innerHTML = localStorage.getItem('nic');
-      document.getElementById('stream').innerHTML =
-        localStorage.getItem('stream');
-      document.getElementById('Drank').innerHTML =
-        localStorage.getItem('Drank');
-      document.getElementById('Irank').innerHTML =
-        localStorage.getItem('Irank');
-      document.getElementById('zscore').innerHTML =
-        localStorage.getItem('zscore');
-      //results
-      document.getElementById('sub1').innerHTML = localStorage.getItem('sub1');
-      document.getElementById('sub2').innerHTML = localStorage.getItem('sub2');
-      document.getElementById('sub3').innerHTML = localStorage.getItem('sub3');
-      document.getElementById('res1').innerHTML = localStorage.getItem('res1');
-      document.getElementById('res2').innerHTML = localStorage.getItem('res2');
-      document.getElementById('res3').innerHTML = localStorage.getItem('res3');
-      document.getElementById('engres').innerHTML =
-        localStorage.getItem('engres');
-      document.getElementById('cgtest').innerHTML =
-        localStorage.getItem('cgtest');
-    </script>
+    <script src="./script.js"></script>
     <script
       type="text/javascript"
       src="./Exam Results - Department of Examinations - Sri Lanka_files/runtime.f390748d8234f5100c0d.js.download"
